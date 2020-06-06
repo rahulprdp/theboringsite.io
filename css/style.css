@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    background-color: white;
+  }
+  
+  #bg {
+    background: linear-gradient(120deg,blue,violet);
+    background-size: 2000px;
+    padding: 0px;
+  }
+  .topnav {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background-color:transparent;
+    float:top;
+  }
+  #logo:hover{
+    
+  }
+  .topnav #tabs:hover {
+    background-color:white;
+    color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color:white ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: transparent;
+  }
+  
+
+  .jumbotron {
+    font-family: 'Poppins', sans-serif;
+        padding: 100px 25px;
+        font-family: Montserrat, sans-serif;
+        text-align: center;
+        background-color: transparent;
+        
+    }
+  
+    .jumbotron h1 {
+      color: white;
+      font-weight: bold;
+      font-size: 72px;
+    }
+  .jumbotron h3 {
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+  }
+
+  .bg-grey {
+    background-color: #eeeeee;
+}
+
+.row {
+  padding: 30px;
+}
+
+footer{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+footer p{
+  font-size: 15px;
+}
+
+#icon {
+  text-align: center;
+  
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+}
+
+h4{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+#About a{
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 25px;
+}
+
+#cEc h3{
+  text-align: center;
+}
+
+.slideanim {
+  visibility:hidden;
+  visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {                  
+  visibility: visible;                  
+  animation: slide 1s;
+}
+.slideanim::after {
+  /* useful when its child elements are float:left; */
+  content: "";
+  display: table;
+  clear: both;
+}
+@keyframes slide {
+  0% {
+      opacity: 0;
+      transform: translateY(50%);
+  } 
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  } 
+}
+
+
